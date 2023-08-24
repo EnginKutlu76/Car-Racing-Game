@@ -1,0 +1,266 @@
+Using pre-set license
+Built from '2021.3/release' branch; Version is '2021.3.12f1 (8af3c3e441b1) revision 9106371'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'tr' Physical Memory: 16110 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Engin/Desktop/Unity/CarRacing
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57452
+Successfully changed project path to: C:/Users/Engin/Desktop/Unity/CarRacing
+C:/Users/Engin/Desktop/Unity/CarRacing
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 97.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.12f1 (8af3c3e441b1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Engin/Desktop/Unity/CarRacing/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x46a6)
+    Vendor:   Intel
+    VRAM:     8055 MB
+    Driver:   31.0.101.3358
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006845 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 87.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.800 seconds
+Domain Reload Profiling:
+	ReloadAssembly (801ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (579ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (126ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (357ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (78ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (134ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007933 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Engin\Desktop\Unity\CarRacing\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Engin\Desktop\Unity\CarRacing\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.371 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1372ms)
+		BeginReloadAssembly (251ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (147ms)
+		EndReloadAssembly (959ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (315ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (434ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (267ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (113.4 KB). Loaded Objects now: 3840.
+Memory consumption went from 116.4 MB to 116.2 MB.
+Total: 4.887500 ms (FindLiveObjects: 0.251700 ms CreateObjectMapping: 0.103700 ms MarkObjects: 4.405900 ms  DeleteObjects: 0.124900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 59472.032335 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(e942f6472df5aa94380b646e6adf3a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(e942f6472df5aa94380b646e6adf3a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc777a1c29b4198374d7672e823c98d2') in 0.037727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.497014 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(5724ece98b4d9004dbe2513bca059834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(5724ece98b4d9004dbe2513bca059834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc710a36a94a53dbd4ebd30440c30d7') in 0.028076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.426872 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(69e8c652e2849bb46876890fe6918c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(69e8c652e2849bb46876890fe6918c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32892600d010c4cb1b7f1f877133efb1') in 0.024056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 64.162106 seconds.
+  path: Assets/Materials/Zeminn.mat
+  artifactKey: Guid(ae43762bd0e94c94685ff339f4a132dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Zeminn.mat using Guid(ae43762bd0e94c94685ff339f4a132dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c51b180a7cd8bee50a6b6fe692f9f72') in 0.690674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.867804 seconds.
+  path: Assets/Materials/Zemin.mat
+  artifactKey: Guid(ae43762bd0e94c94685ff339f4a132dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Zemin.mat using Guid(ae43762bd0e94c94685ff339f4a132dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1267c713b781f47e9c12ceaa785bdc') in 0.035416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.347644 seconds.
+  path: Assets/Materials/New Folder
+  artifactKey: Guid(88b6e98e7707c0d4ab44425d051098e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Folder using Guid(88b6e98e7707c0d4ab44425d051098e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5acc4557400d394dbf29972d56cbc522') in 0.026098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.341416 seconds.
+  path: Assets/Materials/Blok.mat
+  artifactKey: Guid(e820210ad221d504f88c6e9d83e4ed1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Blok.mat using Guid(e820210ad221d504f88c6e9d83e4ed1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cae78260201e8a3bce050114789d68c') in 0.030854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 93.912744 seconds.
+  path: Assets/Materials/Blok.mat
+  artifactKey: Guid(e820210ad221d504f88c6e9d83e4ed1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Blok.mat using Guid(e820210ad221d504f88c6e9d83e4ed1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c47860d1b25dd27b5d5d42731668bc0') in 0.060965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.948031 seconds.
+  path: Assets/Race Car Package/Race Car Package.fbx
+  artifactKey: Guid(6df8799e47834944c85abaf3e659049d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Race Car Package/Race Car Package.fbx using Guid(6df8799e47834944c85abaf3e659049d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba84bfd70d863e944afd2aa14d6c55a') in 0.486273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.583855 seconds.
+  path: Assets/Race Car Package/Prefab
+  artifactKey: Guid(35c7cc2c39568a54f9560940c2b5addd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Race Car Package/Prefab using Guid(35c7cc2c39568a54f9560940c2b5addd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643d001c3b3bbeded4dd1681bb5dd50d') in 0.029184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.102561 seconds.
+  path: Assets/Race Car Package/Prefab/Car.prefab
+  artifactKey: Guid(663342408c5e6e24f8e0cb584631c6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Race Car Package/Prefab/Car.prefab using Guid(663342408c5e6e24f8e0cb584631c6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59605586e5663bb88fb4edd1a28ab266') in 0.094662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Race Car Package/Prefab/wheel_1_2.prefab
+  artifactKey: Guid(f87abe0105f1b7347bd1b3b54fba32f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Race Car Package/Prefab/wheel_1_2.prefab using Guid(f87abe0105f1b7347bd1b3b54fba32f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce269f614ec8962705489b730c98e3ff') in 0.050897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Race Car Package/Prefab/Car_3.prefab
+  artifactKey: Guid(7270d86670806f44a9c24b44dfc8c67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Race Car Package/Prefab/Car_3.prefab using Guid(7270d86670806f44a9c24b44dfc8c67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c08835b7b7294ee0f1947b625d600ca') in 0.041196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Race Car Package/Prefab/Car_2.prefab
+  artifactKey: Guid(e49a8bcd44434de4fbd15b46bf3fd304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Race Car Package/Prefab/Car_2.prefab using Guid(e49a8bcd44434de4fbd15b46bf3fd304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e17eff1d623e79299b5f56a6b8275e6') in 0.044127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Race Car Package/Prefab/wheel_2.prefab
+  artifactKey: Guid(133793f8b950077418f7313e1a49e233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Race Car Package/Prefab/wheel_2.prefab using Guid(133793f8b950077418f7313e1a49e233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb5d2c99bb71146005b1abd2f174e53') in 0.039641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Race Car Package/Prefab/wheel_1.prefab
+  artifactKey: Guid(cddf6b9cf5244094594a0b53cff07cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Race Car Package/Prefab/wheel_1.prefab using Guid(cddf6b9cf5244094594a0b53cff07cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4086594a0bac83305fed43c48f489e9') in 0.040798 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
